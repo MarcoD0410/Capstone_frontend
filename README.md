@@ -29,12 +29,12 @@ List your routes in a table
     user is able to delete edit with the buttons avaiable and of course add any animal that just been added to the zoo community 
 
 ## Challenges
+My Challenge was when I deployed it to netilfy , it messed up my whole page just showing the nav bar and I have no idea why. Even deleted it twice and uploaded it again but still changed nothing. Then what was weird it started doing it in vs code and it wasn't before I deployed so im not sure why deploying it made the page worse.
 
-Started with Django but was having major issues and realized I wont be able to Finish by thursday , so I started all over doing pyhthon and masonite in the backend and the front end is where I included a new css framework Im not familiar with but was a little of a pain to get the css to start working. Biggest challenege was to figure to change the color with the ukit as like the buttons and background of the div. 
 
 ## List of Technologies
 Python
 Masonite
 React
-UKit
+uiKit
 Modal
