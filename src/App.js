@@ -7,6 +7,7 @@ import './uikit.css'
 import AllAnimals from './pages/AllAnimals';
 import SingleAnimal from './pages/SingleAnimal';
 import Form from './pages/Form';
+import Header from './components/header';
 // Import Hooks from React
 import {useState, useEffect} from "react"
 // Import Router 6 Component (Route -> Route, Switch -> Routes)
@@ -106,7 +107,7 @@ function App() {
     
 
     <div className="App">
-     <nav>My Zoo</nav>
+     <Header/>
       <Link to="/new"><button>New Animal</button></Link>
       <Routes>
         <Route path="/zoo" element={<AllAnimals animals={animals}/>}/>
