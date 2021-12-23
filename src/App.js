@@ -107,7 +107,7 @@ function App() {
 
     <div className="App">
      <nav>My Zoo</nav>
-      <Link to="/new"><button class="uk-button uk-button-default">New Animal</button></Link>
+      <Link to="/new"><button>New Animal</button></Link>
       <Routes>
         <Route path="/zoo" element={<AllAnimals animals={animals}/>}/>
         <Route path="/zoo/:id" element={<SingleAnimal 

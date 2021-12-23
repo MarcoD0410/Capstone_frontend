@@ -25,7 +25,8 @@ const Form = ({initialZoo, handleSubmit, buttonLabel}) => {
 
   }
 
-  return <form onSubmit={handleSubmission}>
+  return <div className="form">
+  <form onSubmit={handleSubmission}>
     <input
       type="text"
       onChange={handleChange}
@@ -40,6 +41,7 @@ const Form = ({initialZoo, handleSubmit, buttonLabel}) => {
     />
     <input type="submit" value={buttonLabel} />
   </form>
+  </div>
 };
 
 export default Form; 

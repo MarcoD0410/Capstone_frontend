@@ -3,6 +3,7 @@ import '../uikit-rtl.min.css'
 import {Link, useParams} from "react-router-dom"
 import Modal from "../components/modal"
 import { useState } from "react"
+import '../index.css'
 
 const SingleAnimal = ({animals, edit, deleteZoo}) => {
     // get the params from the url
@@ -29,6 +30,7 @@ const SingleAnimal = ({animals, edit, deleteZoo}) => {
     const deleteButton = () => <button className="buttonShow" onClick={(event)=> deleteZoo(animal)}>Yes</button>
 
     return <div style={div}>
+         <div className="Singleanimal">
         <h1>{animal?.country}</h1>
         <h2>{animal?.animal}</h2>
         <button className="buttonShow" onClick = {()=> {setShow(true)}}>Delete</button>
@@ -37,6 +39,7 @@ const SingleAnimal = ({animals, edit, deleteZoo}) => {
         <Link to="/zoo">
             <button>Go Back</button>
         </Link>
+        </div>
     </div>
 }
 
